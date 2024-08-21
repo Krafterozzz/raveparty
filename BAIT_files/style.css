@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+
+    body {
+    background-color: #000000;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    resize: both;
+    width: 400px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: Readex pro, sans-serif;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.strobe-effect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4000px;
+    height: 4000px;
+    background-color: #fff;
+    animation: strobe 0.11s infinite;
+}
+
+
+
+
+@keyframes strobe {
+    0% {
+        background-color: #ffffff93;
+    }
+
+    50% {
+        background-color: #000000fb;
+    }
+
+    100% {
+        background-color: #ffffff33;
+    }
+}
+
